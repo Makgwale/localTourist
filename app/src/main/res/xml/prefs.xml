@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Enable Night Mode">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="NIGHT"
+            android:summaryOff="Night mode is deactivated"
+            android:summaryOn="Night mode is activated"
+            android:title="Night Mode" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Screen Orientation">
+
+        <ListPreference
+            android:defaultValue="false"
+            android:key="ORIENTATION"
+            android:entries="@array/item_name"
+            android:entryValues="@array/items_values"
+            android:title="Orientation" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Distance Units">
+
+        <ListPreference
+            android:defaultValue="Automatic"
+            android:key="UNITS"
+            android:entries="@array/unit_name"
+            android:entryValues="@array/unit_values"
+            android:title="Units" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Landmark Type">
+
+        <ListPreference
+            android:defaultValue="Modern"
+            android:key="LANDMARK"
+            android:entries="@array/landmark_types"
+            android:entryValues="@array/lardmark_values"
+            android:title="Type" />
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

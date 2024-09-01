@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+
+      app:showAsAction="collapseActionView"
+      android:title="@string/navigation"
+      android:id="@+id/nav"/>
+
+    <item
+        app:showAsAction="collapseActionView"
+        android:title="@string/explore_landmarks"
+        android:id="@+id/profile"/>
+    <item
+        app:showAsAction="collapseActionView"
+        android:title="@string/current_location"
+        android:id="@+id/lsharing"/>
+    <item
+        app:showAsAction="collapseActionView"
+        android:title="@string/ofline_maps"
+        android:id="@+id/offlinem"/>
+    <item
+        app:showAsAction="collapseActionView"
+        android:title="@string/favourite_landmarks"
+        android:id="@+id/favL"/>
+
+      <item
+        app:showAsAction="collapseActionView"
+        android:title="@string/saved"
+        android:id="@+id/SavedLandmarks"/>
+
+    <item
+        app:showAsAction="collapseActionView"
+        android:title="@string/settings"
+        android:id="@+id/setp"/>
+
+</menu>

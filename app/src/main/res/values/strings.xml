@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">localTourist</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="navigation">Navigation</string>
+    <string name="explore_landmarks">Explore landmarks</string>
+    <string name="current_location">Current location</string>
+    <string name="ofline_maps">Ofline Maps</string>
+    <string name="favourite_landmarks">Favourite landmarks</string>
+    <string name="saved">Saved</string>
+    <string name="settings">Settings</string>
+</resources>
